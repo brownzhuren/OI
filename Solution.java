@@ -11,7 +11,7 @@ public class Solution {
     public static void main(String args[]) {
         try {
             InputReader in = new InputReader(System.in);
-            PrinterWriter out = new PrintWriter(System.out);
+            PrintWriter out = new PrintWriter(System.out);
             new Solver().solve(in, out);
             out.close();
         } catch (IOException e) {
