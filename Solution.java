@@ -28,7 +28,7 @@ class InputReader {
         tokenizer = new StringTokenizer("");
     }
 
-    String nextToken() throws IOException {
+    String next() throws IOException {
         while (!tokenizer.hasMoreTokens()) {
             tokenizer = new StringTokenizer(reader.readLine());
         }
@@ -36,6 +36,6 @@ class InputReader {
     }
 
     int nextInt() throws IOException {
-        return Integer.parseInt(nextToken());
+        return Integer.parseInt(next());
     }
 }
