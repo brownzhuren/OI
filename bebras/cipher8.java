@@ -10,9 +10,24 @@ public class cipher8 {
         Task solver = new Task();
         solver.solve(in, out);
         out.close();
-
     }
 
+    /*
+    Input:
+    8
+    ABC
+    DEF
+    GHI
+    JKLY
+    MNOZ
+    PQR
+    STU
+    VWX
+    WATER
+    
+    Output:
+    72-11-62-32-43
+    */
     static class Task {
         void solve(InputReader in, PrintWriter out) {
             int n = in.nextInt();
