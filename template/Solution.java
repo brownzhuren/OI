@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Solution {
     static BufferedReader in;
     static PrintWriter out;
     static StringTokenizer st;

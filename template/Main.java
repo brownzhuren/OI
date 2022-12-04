@@ -7,7 +7,7 @@ class Solver {
     }
 }
 
-public class Solution {
+public class Main {
     public static void main(String args[]) {
         try {
             InputReader in = new InputReader(System.in);
